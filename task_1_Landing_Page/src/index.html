@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing Page</title>
+        <link rel="icon" href="./assets/favicon.png">
+        <link href="./output.css" rel="stylesheet">
+        <link href="./responsiveness.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-------------------------------------- Head and Navbar section ---------------------------------------------->
+        <header class="flex justify-center">
+
+            <!-- This navbar is visible on desktop devices -->
+            <nav id="navbar" class="fixed w-dvw h-14 flex justify-between bg-nav">
+                <a href="#home" class="flex items-center ml-40">
+                    <img src="./assets/logo.png" alt="logo" class="w-12"><span
+                        class="text-4xl text-nav font-sebold">nshit</span>
+                </a>
+                <ul class="flex text-nav text-xl font-semibold items-center mr-32">
+                    <li class="mr-5"><a href="#home">Home</a></li>
+                    <li class="mx-5"><a href="#about">About</a></li>
+                    <li class="mx-5"><a href="https://github.com/anshit2526/OIBSIP" target="_blank">Projects</a></li>
+                    <li class="mx-5"><a href="#contact">Contact</a></li>
+                </ul>
+
+                <span class="flex align-bottom text-xs text-nav"><a href="https://oasisinfobyte.com/" target="_blank"
+                        class="h-max mt-10 mr-3">#oasisinfobyte</a></span>
+            </nav>
+
+            <!-- This navbar is visible in the small devices like phones with the hamburger menu -->
+            <nav id="nav-with-hamburger" class="fixed w-dvw h-14 flex justify-between bg-nav hidden">
+                <a href="#home" class="flex items-center ml-1">
+                    <img src="./assets/logo.png" alt="logo" class="w-6"><span
+                        class="text-2xl text-nav font-sebold">nshit</span>
+                </a>
+                <div class="hamburger flex flex-col justify-center py-1 px-2 hover:cursor-pointer">
+                    <span class=" mt-1 bg-[#f3f3ab] h-[3px] w-7 rounded-md"></span>
+                    <span class=" my-1 bg-[#f3f3ab] h-[3px] w-7 rounded-md"></span>
+                    <span class=" mb-1 bg-[#f3f3ab] h-[3px] w-7 rounded-md"></span>
+                </div>
+
+                <div id='hamburger-items' class='absolute bg-nav top-14 hidden'>
+                    <ul class="text-nav text-sm font-semibold w-dvw">
+                        <li class="m-1 hm-item"><a href="#home">Home</a></li>
+                        <li class="m-1 hm-item"><a href="#about">About</a></li>
+                        <li class="m-1 hm-item"><a href="https://github.com/anshit2526/OIBSIP" target="_blank">Projects</a></li>
+                        <li class="m-1 hm-item"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+
+
+        <!---------------------------------------------- Main section -------------------------------------------------->
+        <main id="home" class="flex h-dvh bg-main">
+
+            <div class="flex flex-col mt-64 ml-16 p-5 text-main-h">
+                <p class="font-semibold text-6xl">Hi there 👋</p>
+                <h1 class="text-5xl font-semibold">I'm <span id="h-name" class="text-7xl">Anshit Krishan</span></h1>
+                <p class="text-2xl font-semibold text-[#222222]">Fullstack Developer | ReactJs | Tailwind | NodeJs
+                    | MongoDB | SQL </p>
+                <a href="https://github.com/anshit2526/OIBSIP" class="w-max" target="_blank">
+                    <button class="flex rounded-2xl font-semibold mt-3 bg-nav text-[#D0D0D0] p-2 ring-1 ring-slate-500">Explore
+                        projects
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 ml-2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                    </button>
+                </a>
+            </div>
+            <div id="profile" class="mt-32 h-max">
+                <img src="./assets/profile.png" alt="profile" class="">
+            </div>
+
+        </main>
+
+
+        <!---------------------------------------------- Footer section -------------------------------------------------->
+        <footer class="bg-nav h-20 text-nav text-sm flex justify-center items-center">
+            <p>This project is made as a TASK during the Web Development internship at Oasis Infobyte.</p>
+        </footer>
+
+    </body>
+
+    <script src="script.js"></script>
+    <script src="responsiveness.js"></script>
+
+</html>

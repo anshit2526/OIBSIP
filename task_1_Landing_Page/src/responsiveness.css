@@ -1,0 +1,178 @@
+@media only screen and (min-width: 0px) and (max-width: 280px) {
+
+    body {
+        max-width: 100dvw;
+    }
+
+    nav {
+        height: 3rem;
+    }
+
+    footer {
+        padding: 1px 15px;
+        font-size: 0.75rem !important;
+    }
+
+    #nav-with-hamburger {
+        display: flex;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #profile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 281px) and (max-width: 320px) {
+    body {
+        max-width: 100dvw;
+    }
+
+    nav {
+        height: 3rem;
+    }
+
+    footer {
+        padding: 1px 15px;
+        font-size: 0.75rem !important;
+    }
+
+    #nav-with-hamburger {
+        display: flex;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #profile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    body {
+        max-width: 100dvw;
+    }
+
+    nav {
+        height: 3rem;
+    }
+
+    footer {
+        padding: 1px 15px;
+        font-size: 0.75rem !important;
+    }
+
+    #nav-with-hamburger {
+        display: flex;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #profile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+    body {
+        max-width: 100dvw;
+    }
+
+    nav {
+        height: 3rem;
+    }
+
+    footer {
+        padding: 1px 15px;
+        font-size: 0.75rem !important;
+    }
+
+    #nav-with-hamburger {
+        display: flex;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #profile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 377px) and (max-width: 430px) {
+
+    body {
+        max-width: 100dvw;
+    }
+
+    nav {
+        height: 3rem;
+    }
+
+    footer {
+        padding: 1px 15px;
+        font-size: 0.75rem !important;
+    }
+
+    #nav-with-hamburger {
+        display: flex;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #profile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 431px) and (max-width: 720px) {
+    body {
+        max-width: 100dvw;
+    }
+
+    nav {
+        height: 4rem;
+    }
+
+    footer {
+        font-size: 0.75rem !important;
+    }
+
+    #nav-with-hamburger {
+        display: flex;
+        z-index: 5;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #profile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 721px) and (max-width: 1024px) {
+    body {
+        max-width: 100dvw;
+    }
+
+    nav {
+        height: 4rem;
+    }
+
+    footer {
+        font-size: 0.75rem !important;
+    }
+
+}

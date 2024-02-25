@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    nav,
+    #hamburger-items {
+        box-shadow: 0px 3px 7px 1px #180236;
+    }
+
+    .hm-item {
+        border-bottom: 1px solid rgb(243 243 171 / 23%);
+        padding: 5px 20px;
+    }
+
+}

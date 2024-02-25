@@ -1,0 +1,146 @@
+@media only screen and (min-width: 0px) and (max-width: 280px) {
+    body::before {
+        background-image: url('../img/bg_m.jpg');
+    }
+
+    .container {
+        max-width: 100dvw
+    }
+
+    .from-unit,
+    .to-unit {
+        width: 100dvw;
+        flex-direction: column;
+    }
+
+    input {
+        align-self: flex-end;
+    }
+
+    select {
+        align-self: flex-start;
+    }
+
+}
+
+@media only screen and (min-width: 281px) and (max-width: 320px) {
+    body::before {
+        background-image: url('../img/bg_m.jpg');
+    }
+
+    .container {
+        max-width: 100dvw
+    }
+
+    .from-unit,
+    .to-unit {
+        width: 100dvw;
+        flex-direction: column;
+    }
+
+    input {
+        align-self: flex-end;
+    }
+
+    select {
+        align-self: flex-start;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    body::before {
+        background-image: url('../img/bg_m.jpg');
+    }
+
+    .container {
+        max-width: 100dvw
+    }
+
+    .from-unit,
+    .to-unit {
+        width: 100dvw;
+        flex-direction: column;
+    }
+
+    input {
+        align-self: flex-end;
+    }
+
+    select {
+        align-self: flex-start;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+    body::before {
+        background-image: url('../img/bg_m.jpg');
+    }
+
+    .container {
+        max-width: 100dvw
+    }
+
+    .from-unit,
+    .to-unit {
+        width: 100dvw;
+        flex-direction: column;
+    }
+
+    input {
+        align-self: flex-end;
+    }
+
+    select {
+        align-self: flex-start;
+    }
+}
+
+@media only screen and (min-width: 377px) and (max-width: 430px) {
+    body::before {
+        background-image: url('../img/bg_m.jpg');
+    }
+
+    .container {
+        max-width: 100dvw
+    }
+
+    .from-unit,
+    .to-unit {
+        width: 100dvw;
+        flex-direction: column;
+    }
+
+    input {
+        align-self: flex-end;
+    }
+
+    select {
+        align-self: flex-start;
+    }
+
+}
+
+@media only screen and (min-width: 431px) and (max-width: 720px) {
+    body::before {
+        background-image: url('../img/bg_m.jpg');
+    }
+    
+    .container {
+        max-width: 100dvw
+    }
+
+    .from-unit,
+    .to-unit {
+        width: 100dvw;
+        flex-direction: column;
+    }
+
+    input {
+        align-self: flex-end;
+    }
+
+    select {
+        align-self: flex-start;
+    }
+
+}
