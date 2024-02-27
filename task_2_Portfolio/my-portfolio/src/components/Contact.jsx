@@ -3,14 +3,13 @@ import React from 'react'
 export default function Contact() {
     return (
         <div className='p-10'>
-            <div className='text-xl flex items-center font-light text-my-theme mb-8'>Contact me <span className='h-[1px] w-[35dvw] bg-my-theme mx-10 rounded-xl' > </span></div>
-                <p className='text-3xl w-[50vw] mx-auto mb-2'>Contact me</p>
+            <div className='text-xl flex items-center font-light text-my-theme mb-8'>Contact <span className='h-[1px] w-[35dvw] bg-my-theme mx-10 rounded-xl' > </span></div>
                 <form action="#" className='flex flex-col border border-my-theme rounded-lg py-2 px-7 w-[50vw] mx-auto'>
-                    <label htmlFor="name">Name</label>
-                    <input type="text" name='name' id='name' />
+                    <label htmlFor="name">Name*</label>
+                    <input type="text" name='name' id='name' required />
 
-                    <label htmlFor="email">Email</label>
-                    <input type='mail' name='email' id='email' />
+                    <label htmlFor="email">Email*</label>
+                    <input type='mail' name='email' id='email' required />
                     
                     <label htmlFor="Message">Message</label>
                     <textarea type="text" name='message' id='message' rows={4}/>
