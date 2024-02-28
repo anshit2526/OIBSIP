@@ -15,7 +15,7 @@ function App() {
 
         <Navbar />
         <main className='w-dvw'>
-          <div className='flex h-28 justify-end items-end relative top-0'>
+          <div className='flex h-24 justify-end items-end relative top-0'>
             <button className='mx-16 h-max rounded-xl underline font-light hover:no-underline'><a href='Anshit-Krishan.pdf' download='Anshit-Krishan.pdf'>Download my CV</a></button>
             <Link to='/Contact'> <button className='mx-16 h-max rounded-3xl bg-my-theme px-10 py-2'>Get in touch</button></Link>
           </div>

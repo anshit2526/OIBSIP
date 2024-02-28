@@ -14,8 +14,10 @@ module.exports = {
       },
       borderColor: {
         'my-theme': '#E46545'
-      }
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }

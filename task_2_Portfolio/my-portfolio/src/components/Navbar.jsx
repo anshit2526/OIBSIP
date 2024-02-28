@@ -3,14 +3,13 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
     return (
-        <nav className=' h-dvh w-[40vw] max-w-[40vw] p-20'>
+        <nav className='h-dvh w-[40vw] max-w-[40vw] p-20'>
 
             <Link to="/" className='mt-28'>
                 <div className='flex'>
                     <img src="../logo.png" alt="logo" className='w-10' /><h1 className='text-4xl'>nshit Krishan</h1>
                 </div>
-                {/* <h2 className='block'>Full-stack Developer</h2> */}
-                <h2 className='block italic'>Work together, Grow together</h2>
+                <h2 className='block'>Full-stack Developer</h2>
             </Link>
 
             <div className="mt-32">

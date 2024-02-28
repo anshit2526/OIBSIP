@@ -26,4 +26,12 @@ label {
   margin-top: 10px;
 }
 
+.my-scrollbar::-webkit-scrollbar {
+  background-color: transparent;
+  width: 5px;
+}
 
+.my-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(228, 101, 69, 100%);
+  border-radius: 34px;
+}
