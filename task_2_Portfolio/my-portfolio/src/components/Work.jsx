@@ -6,7 +6,7 @@ export default function Projects() {
 
       <div className='text-xl flex items-center text-my-theme mb-12'>Work <span className='h-[1px] w-[35dvw] bg-my-theme mx-10 rounded-xl' > </span></div>
 
-      <div className='container overflow-y-auto h-[63dvh] my-scrollbar'>
+      <div className='container overflow-y-auto h-[60dvh] my-scrollbar'>
         <h3 className='text-my-theme text-3xl underline hover:no-underline'>Portfolio Website</h3>
         <p className='font-light px-5'>One of the projects I have worked on is this Portfolio. I created this portfolio with so much attention to detail and to show my skills and knowledge in coding. Technologies used in this portfolio are HTML, CSS, JavaScript, Tailwind CSS and Rect.js. This portfolio contains my journey as a web developer, Projects I have worked on and my contact information.</p>
         <h5 className='italic px-5 py-1'>Features:</h5>

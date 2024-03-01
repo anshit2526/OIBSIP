@@ -5,7 +5,7 @@ export default function About() {
     <div className='p-10'>
       <div className='text-xl flex items-center text-my-theme mb-12'>Information <span className='h-[1px] w-[35dvw] bg-my-theme mx-10 rounded-xl' > </span></div>
 
-      <div className="container overflow-y-scroll max-h-[63dvh] my-scrollbar">
+      <div className="container overflow-y-scroll max-h-[60dvh] my-scrollbar">
         <div id="about">
           <h3 className='text-4xl mb-3 text-my-theme w-max'><a href="#about">About me</a></h3>
           <p className='font-light mx-5'> Throughout my professional journey I made myself a highly skilled and driven Full-Stack Developer passionate about crafting beautiful, user-friendly, and profitable websites. I am committed to delivering high-quality, maintainable code within deadlines and at competitive rates, ensuring a smooth and successful project journey for my clients. </p>

@@ -154,7 +154,7 @@ function laptopComputer(screenSize) {
         document.addEventListener('DOMContentLoaded', () => {
             const optionElements = document.getElementsByTagName('option');
             const optionStyle = {
-                'fontSize': '12px'
+                'fontSize': '1.20rem'
             }
             for (let i = 0; i < optionElements.length; i++) {
                 Object.assign(optionElements[i].style, optionStyle)
