@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/OIBSIP/tree/main/task_2_Portfolio/my-portfolio/static/css/main.cef9b9be.css",
+    "main.js": "/OIBSIP/tree/main/task_2_Portfolio/my-portfolio/static/js/main.238694e7.js",
+    "static/js/453.acca0757.chunk.js": "/OIBSIP/tree/main/task_2_Portfolio/my-portfolio/static/js/453.acca0757.chunk.js",
+    "index.html": "/OIBSIP/tree/main/task_2_Portfolio/my-portfolio/index.html",
+    "main.cef9b9be.css.map": "/OIBSIP/tree/main/task_2_Portfolio/my-portfolio/static/css/main.cef9b9be.css.map",
+    "main.238694e7.js.map": "/OIBSIP/tree/main/task_2_Portfolio/my-portfolio/static/js/main.238694e7.js.map",
+    "453.acca0757.chunk.js.map": "/OIBSIP/tree/main/task_2_Portfolio/my-portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cef9b9be.css",
+    "static/js/main.238694e7.js"
+  ]
+}
